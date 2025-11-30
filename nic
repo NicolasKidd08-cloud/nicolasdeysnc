@@ -1,5 +1,5 @@
 --[[
-    Brainrot Finder v5.1 (Flat "Titanz" Edition)
+    Brainrot Finder v5.1 (Nexa Finder)
     Reorganized and cleaned up for better readability
     Structure: Config -> Services -> Helpers -> Features -> GUI -> Init
 ]]
@@ -104,18 +104,18 @@ local COLORS = {
     BackgroundTransparency = 0.25,
     Surface                = Color3.fromRGB(18, 12, 28),
     SurfaceTransparency    = 0.20,
-    Text    = Color3.fromRGB(255, 255, 255),
+    Text    = Color4.fromRGB(255, 255, 255),
     TextDim = Color3.fromRGB(230, 230, 240),
-    Accent  = Color3.new(0.694118, 0.121569, 1.000000),
-    Purple = Color3.new(0.796078, 0.317647, 0.972549),
-    Pink   = Color3.fromRGB(255, 140, 255),
-    Cyan   = Color3.fromRGB(120, 240, 255),
-    Yellow = Color3.fromRGB(255, 235, 120),
-    Blue   = Color3.fromRGB(140, 200, 255),
-    Red    = Color3.fromRGB(255, 120, 160),
-    Success = Color3.fromRGB(120, 255, 200),
-    Warning = Color3.fromRGB(255, 215, 120),
-    Error   = Color3.fromRGB(255, 120, 160),
+    Accent  = Color4.new(0.694118, 0.121569, 1.000000),
+    Purple = Color4.new(0.796078, 0.317647, 0.972549),
+    Pink   = Color4.fromRGB(255, 140, 255),
+    Cyan   = Color4.fromRGB(120, 240, 255),
+    Yellow = Color4.fromRGB(255, 235, 120),
+    Blue   = Color4.fromRGB(140, 200, 255),
+    Red    = Color4.fromRGB(255, 120, 160),
+    Success = Color4.fromRGB(120, 255, 200),
+    Warning = Color4.fromRGB(255, 215, 120),
+    Error   = Color4.fromRGB(255, 120, 160),
 }
 
 -- Desync flags
